@@ -1,0 +1,86 @@
+section
+{
+    margin:auto;
+    width: 98%;
+    font-family: 'Oxygen', sans-serif;
+}
+section > h3
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+.container
+{
+    width: 30%;
+    border: 1.5px solid black;
+    background-color: darkgray;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.5%;
+    position: relative;
+}
+
+.top-right
+{
+    position:absolute;
+    top: -17.5px;
+    right: -2px;
+    display: inline-block;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+}
+
+.container p:nth-child(2)
+{
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.color1
+{
+    background-color:lightcoral;
+}
+.color2
+{
+    background-color:brown;
+    color: white;
+}
+
+.color3
+{
+    background-color:bisque;
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .container
+    {
+        width:45%;
+    }
+    .third
+    {
+        width: 93%;
+        margin-top:30px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .container
+    {
+        width:90%;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    section > h3
+    {
+        margin-bottom: 20px;
+    }
+}
